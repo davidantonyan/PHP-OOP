@@ -1,0 +1,17 @@
+{
+    "name": "david/php-oop",
+    "description": "php oop",
+    "authors": [
+        {
+            "name": "David",
+            "email": "davidantonyan1981@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {	
+		"psr-4": {
+        	"App\\": "app/",
+            "OOP\\": "oop/"
+    	}
+    }
+}
